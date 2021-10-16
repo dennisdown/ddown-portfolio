@@ -1,11 +1,12 @@
 :root {
-    bg-main: #3E6AA3
+    --bg-main: #ffebcd;
+    --main-color: #366CB3;
 }
 
 * {
-    background-color: #3E6AA3;
+    background-color: var(--bg-main);
+    color: var(--main-color);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: blanchedalmond
 }
