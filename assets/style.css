@@ -1,12 +1,190 @@
 :root {
-    --bg-main: #ffebcd;
-    --main-color: #366CB3;
+    --colorblue: #366cb3;
+    --colorbeige: #fff5e6;
+    --colorred: #ff010a;
+    --colorlightblue: #4b97fb;
+    --coloryellow: #FFFA58;
 }
 
 * {
-    background-color: var(--bg-main);
-    color: var(--main-color);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+ 
 }
+
+body {
+    background-image: url(./images/criss-cross.png);
+    background-size: cover;
+    color: var(--colorbeige);
+}
+/* Header / Nav bar start */
+header {
+    padding: 15px 25px;
+    /* background-color: var(--colorbeige); */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* position: sticky; */
+    top: 0;
+    background-image: url(./images/DetroitSkyline.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    border-bottom: 2px solid var(--colorlightblue);
+    align-items: center;
+    z-index: 10;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0%;
+    font-size: 72px;
+    color: var(--colorbeige);
+    /* text-shadow: 0 0 10px var(--colorlightblue); */
+}
+
+header a {
+    font-size: 32px;
+    text-decoration: none;
+    color: var(--colorbeige);
+}
+
+header nav {
+    font-weight: bold;
+    margin: 0;
+    color: var(--colorlightblue);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 2.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: var(--colorbeige);
+    color: var(--colorlightblue);
+    border-radius: 5px;
+    text-shadow: none;
+}
+
+
+
+/* Header / Nav bar end */
+
+/* about me section */
+.about {
+    background-image: url(./images/DetroitSkyline.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding: 40px;
+    color: white;
+     -webkit-text-stroke: 1px powderblue; 
+}
+
+.about-cta {
+    /* width: 50%; */
+    text-align: left;
+    margin: 3.5%;
+    color:var(--colorbeige);
+    font-size: 1.9em;
+    line-height: 1.2;
+}
+
+.about-cta h2 {
+    font-weight: bold;
+    font-size: 55px;
+    color: var(--colorbeige);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-cta img {
+    float: left;
+    border-radius: 10px;
+    height: 200 px;
+    width: 200px;
+}
+
+.about-cta p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 5px 15px 240px;
+    background-color: rgba(54, 108, 179, 0.5);
+    border-radius: 10PX;
+    border: outset;
+}
+
+/* about me section end */
+
+/* projects section start */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: var(--colorlightblue);
+    border: 3px solid white;
+}
+
+.projects h2 {
+    font-weight: bold;
+    font-size: 55px;
+    float: center;
+    color: var(--colorbeige);
+    border: 3px solid pink;
+}
+
+.projects img {
+    height: 200px;
+    width: 200px;
+}
+
+.projects div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    border: 3px solid blue;
+}
+
+
+/* projects section end */
+
+/* footer section start */
+
+.footer {
+    padding: 20px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 3px solid white;
+}
+
+.footer div {
+    border: 3px solid green;
+}
+
+.footer div ul {
+    border: 3px solid blue;
+}
+
+.footer div ul li {
+    border: 3px solid yellow;
+}
+
+/* footer section end */
