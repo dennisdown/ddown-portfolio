@@ -139,6 +139,10 @@ header nav ul li a:hover {
     background: var(--colorlightblue);
 }
 
+.projects a {
+    color: var(--colorbeige);
+}
+
 .projects h2 {
     margin: 0 auto;
     font-weight: bold;
