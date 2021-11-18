@@ -38,7 +38,7 @@ header {
 header h1 {
     font-weight: bold;
     margin: 0%;
-    font-size: 5.5em;
+    font-size: 14vw;
     color: var(--colorbeige);
     /* text-shadow: 0 0 10px var(--colorlightblue); */
 }
@@ -194,7 +194,7 @@ header nav ul li a:hover {
     background-color: var(--colorlightblue);
 }
 
-.horiseon {
+.repos {
     width: 50%;
     padding: 15px;
     display: flex;
@@ -204,16 +204,6 @@ header nav ul li a:hover {
     justify-content: space-evenly;
 }
 
-.robotgladiators {
-    width: 50%;
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-
-}
 
 
 .projects div h3 {
@@ -229,10 +219,7 @@ header nav ul li a:hover {
 /* projects section end */
 
 /* Resume start */
-
-
-
-
+/* I ended just making the resume a donwloadable pdf instead of using an image or screenshot */
 /* Resume End */
 
 /* footer section start */
